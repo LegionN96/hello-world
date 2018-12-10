@@ -16,7 +16,5 @@ CASE pa_op.
     gv_result = pa_int1 + pa_int2.
   WHEN '-'.
     gv_result = pa_int1 - pa_int2.
-  WHEN '/'.
-
   WHEN OTHERS.
 ENDCASE.
